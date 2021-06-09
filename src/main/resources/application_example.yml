@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: host-agent-patrol
+
+slack-secret: https://hooks.slack.com/services/XXXXXXXX/YYYYYYYYYYY/ZZZZZZZZZZZZZ
+polling-period-secs: 300
+
+users:
+  - name: Alice
+    slack-user-id: ABCDEF00
+    max-hosts-running: 1
+    hosts:
+      - 192.168.1.124
+      - 192.168.1.210
+      - host-name-1
+  - name: Bob
+    slack-user-id: XFZML123
+    max-hosts-running: 1
+    hosts:
+      - 192.168.1.52
+      - host-name-2
+      - 192.168.1.1
