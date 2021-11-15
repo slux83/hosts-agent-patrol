@@ -11,7 +11,7 @@ For further reference, please consider the following sections:
 ## Configuration
 The file src/main/resources/application_example.yml can be used as starting point for configuring your users and hosts. The file has to be passed to the running spring boot instance `--spring.config.location=PATH`.
 
-An example of the configuration file, is reported here below:
+An example of the configuration file, is reported below:
 ```
 spring:
   application:
